@@ -1,0 +1,36 @@
+#================= READ ME =================
+This document outlines changes in the Self-Organizing Map Program Package (SOM_PAK; Kohonen et al. 1996) designed to allow for large input data vectors. This change facilitates the production of time-evolving SOMs (Gu and Gervais, 2022) where input data vectors are three dimensional fields with both space and time dimensions. 
+The original SOM_PAK is available at the following link: http://www.cis.hut.fi/research/som_lvq_pak.shtml. 
+This document is associated a journal article (Gu and Gervais, 2022). 
+Please cite both Kohonen et al. (1996) and Gu and Gervais (2022) when using this method.
+
+References: 
+Kohonen, T. K., Hynninen, J., Kangas, J., & Laaksonen, J. (1996). SOM PAK: The Self-Organizing Map Program Package. Report A31, Helsinki University of Technology, Laboratory of Computer and Information Science, February. http://www.cis.hut.fi/nnrc/nnrc-programs.html
+Gu, Q., & Gervais, M. (2022). Diagnosing two-way coupling in decadal North Atlantic SST variability using time-evolving self-organizing maps. Geophysical Research Letters
+#================= READ ME =================
+
+
+#================= For UNIX users without existing installation =================
+$ uncompress som_pak-3.1.tar.Z
+$ tar xovf som_pak-3.1.tar
+$ cd som_pak-3.1
+Change all 'short' type in lvq_pak.h to 'int' type.
+Change 'ABS_STR_LNG' in fileio.h to large enough as you need.
+$ cp makefile.unix makefile
+$ make
+#================= For UNIX users without existing installation =================
+
+
+#=============== For UNIX users with existing installation ===============
+$ cd som_pak-3.1
+Delete all object files (*.o) and executable files
+Change all 'short' type in lvq_pak.h to 'int' type.
+Change 'ABS_STR_LNG' in fileio.h to large enough as you need.
+$ make
+#=============== For UNIX users with existing installation ===============
+
+
+#=============== Note ===============
+# Depending on the package version, you can modify the SOM_PAK file name.
+# For MS-DOS user, you need to substitute "$ cp makefile.unix makefile" with "$ copy makefile.dos makefile".
+#=============== Note ===============

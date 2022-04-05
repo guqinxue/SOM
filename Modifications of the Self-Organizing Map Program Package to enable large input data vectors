@@ -7,7 +7,7 @@ Please cite both Kohonen et al. (1996) and Gu and Gervais (2022) when using this
 
 References: 
 Kohonen, T. K., Hynninen, J., Kangas, J., & Laaksonen, J. (1996). SOM PAK: The Self-Organizing Map Program Package. Report A31, Helsinki University of Technology, Laboratory of Computer and Information Science, February. http://www.cis.hut.fi/nnrc/nnrc-programs.html
-Gu, Q., & Gervais, M. (2022). Diagnosing two-way coupling in decadal North Atlantic SST variability using time-evolving self-organizing maps. Geophysical Research Letters
+Gu, Q., & Gervais, M. (2022). Diagnosing two-way coupling in decadal North Atlantic SST variability using time-evolving self-organizing maps. Geophysical Research Letters, 49, e2021GL096560. https://doi.org/10.1029/2021GL096560
 #================= READ ME =================
 
 
